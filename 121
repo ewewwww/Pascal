@@ -1,0 +1,21 @@
+program EDUARDO;
+uses crt;
+var x,z,a,b:real;
+begin
+clrscr;
+writeln( x,a,b');
+readln(x,a,b);
+if x<=a then
+       begin z:=sin(x)+1.3;
+             writeln('z:=sin(x)',z);
+       end
+    else
+    if (x>a) and (x<b) then
+                      begin z:=sin(x)/cos(x)+x*x;
+                      writeln('z:=sin(x)/cos(x)+x*x',z);
+                      end
+    else begin  z:=x*x*x*x*x*x*x;
+         writeln('z=x^7=',z:10:4);
+         end;
+readkey;
+end.
